@@ -5,10 +5,10 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i4;
 
+import 'package:flutter_base_structure/data/data_source/remote/repository/rest_api/rest_api_repository.dart'
+    as _i3;
 import 'package:flutter_base_structure/data/model/response.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
-
-import 'rest_api_repository_test.dart' as _i3;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values
@@ -31,12 +31,11 @@ class _FakeResponseData_0 extends _i1.SmartFake implements _i2.ResponseData {
         );
 }
 
-/// A class which mocks [MockRestApiRepository].
+/// A class which mocks [RestApiRepository].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockMockRestApiRepository extends _i1.Mock
-    implements _i3.MockRestApiRepository {
-  MockMockRestApiRepository() {
+class MockRestApiRepository extends _i1.Mock implements _i3.RestApiRepository {
+  MockRestApiRepository() {
     _i1.throwOnMissingStub(this);
   }
 

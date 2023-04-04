@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_base_structure/data/model/response.dart';
 import 'package:retrofit/retrofit.dart';
-
 import 'api_contract.dart';
 
 part 'rest_api_repository.g.dart';
