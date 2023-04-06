@@ -24,7 +24,7 @@ void main() {
     });
 
     test('throws an exception if the API call fails', () async {
-      when(repository.authEmailLogin({})).thenAnswer((_) async {
+      when(repository.authEmailLogin({})).thenThrow((_) async {
         return ResponseData(message: 'Not Found');
       });
 

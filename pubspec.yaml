@@ -43,6 +43,7 @@ dependencies:
 
   #base
   injectable: ^2.1.1
+  test: ^1.22.0
 
 dev_dependencies:
   flutter_test:
@@ -57,6 +58,7 @@ dev_dependencies:
   get_it: ^7.2.0
 
   #unit_test
+  http_mock_adapter: ^0.4.2
   mockito: ^5.4.0
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
